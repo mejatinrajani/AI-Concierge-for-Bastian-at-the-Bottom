@@ -121,7 +121,6 @@ A basic RAG implementation faces several significant challenges:
 | **Limitations** | Cannot handle synonyms or contextual relationships. Misses conceptually relevant documents. Performs poorly with conversational queries. | Computationally expensive. Requires significant GPU resources. Struggles with out-of-vocabulary technical terms. Not easily explainable. | Complex to build and maintain. Requires running two systems, doubling computational cost. Tuning fusion algorithms is challenging. |
 | **Suitable Use Cases** | Legal research, code repository searches, product code lookups, academic paper searches with specific keywords. | Conversational AI, semantic search engines, recommendation systems, complex question answering. | Enterprise search, customer support systems, academic research databases, high-stakes applications requiring maximum accuracy. |
 
----
 
 ### Detailed Breakdown of Each Approach
 
@@ -134,7 +133,6 @@ A basic RAG implementation faces several significant challenges:
 | **Limitations** | No semantic understanding, so it cannot recognise synonyms (e.g., "vehicle" vs "car"). Suffers from vocabulary mismatch, requiring exact or stemmed word matches. Cannot understand the meaning behind words. Performs poorly with languages that have complex morphology. Static scoring does not consider word order or phrase meaning. |
 | **Suitable Use Cases** | Legal document searches where exact terminology matters. Technical documentation search with specific error codes or product names. Searching through code repositories or database records. Academic paper searches where specific keywords are important. |
 
----
 
 #### Dense Retrieval
 
@@ -145,7 +143,6 @@ A basic RAG implementation faces several significant challenges:
 | **Limitations** | Computationally intensive, requiring significant processing for embedding generation. Needs quality training data to work effectively. Black box nature makes it hard to explain why certain results were retrieved. Struggles with out-of-vocabulary issues for rare words not seen during training. Cold start problem leads to poor performance for new domains without fine-tuning. Resource heavy, requiring large memory and GPU resources. |
 | **Suitable Use Cases** | Conversational AI and chatbots. Semantic search engines. Recommendation systems. Question-answering systems. Similarity-based clustering and classification. |
 
----
 
 #### Hybrid Retrieval
 
