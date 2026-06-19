@@ -42,147 +42,126 @@
 
   "source_documents": {
     "venue_information": {
-      "name": "Bastian Beach Club Venue Information",
-      "path": "documents/venue_information.md",
+      "name": "Bastian at the Bottom Venue Information",
       "last_updated": "2026-06-19",
-      "description": "Static venue details, location, description, founders, architect, size, capacity, event spaces, accessibility, parking, policies."
+      "content": "Bastian at the Bottom is a premier beach club and lifestyle destination located at 39, Sun-n-Sand, Juhu Beach, Juhu, Mumbai, Maharashtra 400049. The venue spans 25,000 square feet and features a stunning beachfront setting overlooking the Arabian Sea. It was founded by Ranjit Bindra, Kunal Jani, and Shilpa Shetty, with interiors designed by renowned architect Minal Chopra, drawing inspiration from Ibiza, Mykonos, and Saint-Tropez. The space boasts open-plan layouts, a neutral coastal palette, and a sprawling central pool. Seating capacity: up to 1,400 guests per evening across two seatings of 700 each, with 400 indoor seats, 300 outdoor terrace seats, 200 poolside loungers, 50 VIP lounge seats, 8 private cabanas, and 2 private dining rooms. Event spaces include The Terrace (200 capacity, open-air, ideal for cocktail receptions), The Ballroom (300 capacity, indoor, suitable for corporate events and weddings), and Poolside Deck (150 capacity, intimate setting for private parties). The venue is wheelchair accessible with ramps, accessible restrooms, and designated accessible parking. Complimentary valet parking is available for all guests, with limited self-parking on a first-come, first-served basis; EV charging is not currently offered. Contact: +91 2250 333555, WhatsApp +91 89769 53369, email resmanager@bastianhospitality.com, website https://www.bastianhospitality.com/beach-club."
     },
     "policies": {
       "reservation_policy": {
         "name": "Reservation Policy",
-        "path": "documents/policies/reservation_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "Reservation requirements, booking channels, deposit, cancellation, modification, late arrival, no-show, seating preferences."
+        "content": "Reservations are mandatory at Bastian at the Bottom. Walk-ins are rarely accepted, though brunch and lunch hours may have limited flexibility. Booking channels: phone +91 2250 333555, WhatsApp +91 89769 53369 (send preferred date and slot), website, or Instagram DM. Reservations can be made up to 30 days in advance. Each booking is for a fixed 2-hour dining slot. A deposit of 25% of the estimated bill is required for weekday bookings, and 50% for weekend bookings. All deposits are non-refundable and non-transferable. Cancellations are not permitted; reservations are non-cancelable and non-refundable. Modifications to the reservation (e.g., date, time, guest count) are allowed up to 48 hours before the booking, subject to availability, with no additional fee. Late arrival: a 15-minute grace period is allowed; after that, the table may be released to walk-ins or the waiting list. No-show: the full cover charge per person plus any deposit will be charged to the card on file. Guests may request seating preferences (indoor, outdoor, poolside, VIP) at the time of booking, but these are subject to availability and not guaranteed. Peak hours (7:00 PM – 10:00 PM) have strict table turnover to accommodate all reservations. For group bookings of 10 or more, a minimum spend applies; contact the events team for custom packages."
       },
       "entry_and_cover_charge": {
         "name": "Entry and Cover Charge Policy",
-        "path": "documents/policies/entry_cover_charge.pdf",
         "last_updated": "2026-06-19",
-        "description": "Age restriction, ID requirements, cover charges, pool access, dress code, entry checks, refusal rights."
+        "content": "Entry to Bastian at the Bottom requires a government-issued physical ID (driver's license, Aadhar Card, passport) for age verification. The minimum age is 21 years; guests must be 21 or older to enter. All guests are subject to security checks and temperature screening upon arrival. Management reserves the right to refuse entry in accordance with licensing laws. Cover charge: ₹3,000 per person on weekdays (Tuesday–Thursday) and ₹5,000 per person on weekends (Friday–Sunday), fully redeemable against food and beverage. Pool access is an additional ₹2,000 per person, which includes a towel and one complimentary drink. For special events, cover charges may vary – check event listings for details. Dress code is strictly smart casual: men are not permitted in sleeveless attire with jeans; shoes are compulsory for all guests. The management reserves the right to refuse entry to anyone not meeting the dress code."
       },
       "child_and_family_policy": {
         "name": "Child and Family Policy",
-        "path": "documents/policies/child_family_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "Daytime child policy, evening age restriction, kids activities, kids menu."
+        "content": "Children are welcome at Bastian at the Bottom during daytime hours (until 7:00 PM). After 7:00 PM, the venue is strictly 21+ and no minors are permitted. During the day, the venue offers curated children's activities such as colouring kits, board games, and access to a dedicated kids' pool area. A kids' menu is available upon request featuring Mini Burger (₹350), Cheese Quesadilla (₹300), and Mac & Cheese (₹300). Families are encouraged to book early for daytime slots. Strollers are accessible via ramps."
       },
       "pet_policy": {
         "name": "Pet Policy",
-        "path": "documents/policies/pet_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "Pet restrictions, service animal exceptions, penalty for unauthorised pets."
+        "content": "Pets are strictly prohibited at Bastian at the Bottom. The only exception is for certified service animals with valid documentation (government-issued ID for the animal). Emotional support animals are not considered service animals and are not permitted. Any unauthorised pet discovered on the premises will result in a ₹15,000 deep cleaning fee and immediate eviction from the property without refund."
       },
       "smoking_policy": {
         "name": "Smoking Policy",
-        "path": "documents/policies/smoking_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "Indoor smoking prohibition, designated outdoor area, fine."
+        "content": "Indoor smoking is strictly prohibited throughout the venue, including all dining areas, the poolside, and restrooms. A designated outdoor smoking area is available on the terrace (south-east corner). Guests must use this area only. Violation of the indoor smoking ban will incur a ₹10,000 fine per incident, and repeated offences may lead to eviction without refund."
       },
       "photography_policy": {
         "name": "Photography and Drone Policy",
-        "path": "documents/policies/photography_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "Personal photography allowance, professional photography permission, drone prohibition."
+        "content": "Personal photography for non-commercial use is permitted throughout the venue, provided it does not disturb other guests or capture staff without their consent. Professional photography (including wedding, product, or fashion shoots) requires prior written permission from the management. Drones are strictly prohibited on the property without explicit authorisation from the venue. Violation of drone policy may result in fines and legal action."
       },
       "parking_policy": {
         "name": "Parking Policy",
-        "path": "documents/policies/parking_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "Valet parking, self-parking, EV charging availability."
+        "content": "Complimentary valet parking is available for all guests of Bastian at the Bottom. Limited self-parking is available on a first-come, first-served basis in the designated parking lot; however, self-parking is not guaranteed and valet is recommended. EV charging stations are not currently offered. Overnight parking is not permitted. The venue is not responsible for any damage or theft to vehicles parked on the premises."
       },
       "accessibility_policy": {
         "name": "Accessibility Policy",
-        "path": "documents/policies/accessibility_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "Wheelchair access, ramps, accessible restrooms, accessible parking."
+        "content": "Bastian at the Bottom is committed to providing an inclusive experience. The venue is fully wheelchair accessible with ramps at all main entrances, wide doorways, and accessible restrooms on the ground floor. Designated accessible parking spots are available near the entrance. Service animals are welcome. Guests with specific accessibility requirements are encouraged to inform the reservation team in advance to ensure a seamless visit."
       },
       "payment_policy": {
         "name": "Payment Policy",
-        "path": "documents/policies/payment_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "Accepted payment methods, foreign currency, split bill, GST, service charge, gift cards, refunds."
+        "content": "Accepted payment methods: credit cards (Visa, Mastercard, American Express), debit cards, UPI (Google Pay, PhonePe, BHIM), and cash (Indian Rupees only). Foreign currency is not accepted. Split bills are allowed up to 4 cards per table. GST: 5% on food items, 18% on alcoholic beverages. A 10% service charge is applied to all bills. Gift cards are available for purchase at the venue and online; they can be used for all food, beverage, and services. Refunds: any refunds are processed to the original payment method within 7–10 business days. No membership program is currently offered; however, frequent guests can contact the hospitality team for personalised offers."
       },
       "pool_policy": {
         "name": "Pool Policy",
-        "path": "documents/policies/pool_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "Access fee, hours, rules, swimwear, children supervision, lockers, showers."
+        "content": "The pool at Bastian at the Bottom is accessible for a fee of ₹2,000 per person, which includes a towel and one complimentary drink (in addition to the cover charge). Pool hours are 10:00 AM to 7:00 PM daily. Poolside service is available from 4:00 PM to 10:00 PM. Rules: proper swimwear required (no cotton t-shirts, denim, or street clothes in the water). No glassware near the pool. No outside food or beverages. Children must be supervised by an adult at all times; the pool is not heated. A lifeguard is on duty during operating hours. Lockers and shower facilities are available for pool access guests at no extra charge. The pool may be closed during lightning, heavy rain, or for maintenance; no refunds for weather closures."
       },
       "wellness_policy": {
         "name": "Wellness Policy",
-        "path": "documents/policies/wellness_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "Wellness offerings, yoga schedule, seasonal timing, registration requirement."
+        "content": "Bastian at the Bottom offers wellness-led mornings featuring sunrise yoga and meditation sessions. These are seasonal, typically from October to March, with yoga from 7:00 AM to 8:00 AM and other wellness activities from 8:00 AM to 11:00 AM. Prior registration is required; guests can sign up via the reservations team. The wellness programme is subject to change based on weather and instructor availability. There is no additional charge for hotel guests (if any) but day visitors may be charged a nominal fee; contact the venue for current pricing. Wellness memberships are not offered at this time."
       }
     },
     "menu": {
       "food_menu": {
         "name": "Bastian Food Menu",
-        "path": "documents/menu/food_menu.pdf",
         "last_updated": "2026-06-19",
-        "description": "Starters, sushi, small plates, main courses, desserts, kids menu, dietary options."
+        "content": "Bastian at the Bottom offers a contemporary menu blending modern seafood, Asian fusion, and Continental cuisine, under the direction of Chef Kinyo. Average cost for two is ₹3,500 – ₹4,000 (without alcohol). Dietary accommodations: vegetarian, vegan, Jain, gluten-free, lactose-free, and nut-allergy-friendly options are available; please inform your server. Starters: Avocado Toast (₹750–₹900, vegan), Burrata Salad (₹900–₹1,100, vegetarian), Crispy Chicken Bao (₹600–₹750), Korean Fried Chicken (₹800–₹950), Chicken Wings (₹800–₹950), Veg Dry Corn Ceviche (₹650–₹800, vegan), Rock Broccolini (₹550–₹700, vegan), Tofu Bao (₹550–₹700, vegan), Hamachi Ceviche (₹1,200–₹1,400). Sushi & Raw: Salmon Jalapeño (₹1,200–₹1,400), Tuna Sambal (₹1,300–₹1,500), Salmon Carpaccio (₹1,100–₹1,300), Tuna Sashimi (₹1,400–₹1,600), Bastian Ceviche (₹1,000–₹1,200), Salmon Crispy Rice (₹1,100–₹1,300), Crab Roll (₹1,300–₹1,500), Aburi Miso Salmon Sushi (₹1,200–₹1,400), Inti Smoked Saradito (₹1,300–₹1,500). Small Plates: Pork Belly Yakibuta (₹1,200–₹1,400), Malaysian Noodles (₹700–₹900, vegetarian/vegan optional). Main Courses: Tropical Bowl (₹1,100–₹1,300, vegetarian), Kinoko Hikari (₹1,200–₹1,400, vegetarian), 5 Pimientas Chicken Bowl (₹1,200–₹1,400), Arabian Seabass Amazonico (₹1,800–₹2,000), Soft Shell Crab Tacos (₹1,400–₹1,600), Animal Sauce Prawns (₹1,300–₹1,500), Chicken Burrito (₹900), Chilli Garlic Noodles (₹675, vegan). Desserts: Tiramisu (₹550–₹700), Cheesecake (₹550–₹700), Hazelnut Pull-Me-Up Cake (₹600–₹750), Citrus-Forward Lime-Lemon Creation (₹550–₹700, vegan). Kids Menu: Mini Burger (₹350), Cheese Quesadilla (₹300), Mac & Cheese (₹300). All prices exclusive of taxes and service charge."
       },
       "beverage_menu": {
         "name": "Bastian Beverage Menu",
-        "path": "documents/menu/beverage_menu.pdf",
         "last_updated": "2026-06-19",
-        "description": "Cocktails, mocktails, wine, champagne, spirits, beer, tea, coffee, fresh juices."
+        "content": "Bastian at the Bottom offers a comprehensive beverage program. Cocktails: Sakura Cloud Martini (gin, sake, lychee, jasmine foam – ₹1,100–₹1,300), Tigre Verde (vodka, coriander, citrus – ₹1,000–₹1,200), Pacific Breeze (tequila, lemongrass, ginger, coconut water – ₹1,000–₹1,200), Shogun Mojito (shiso, sake – ₹1,000–₹1,200), Playa Picante (spicy margarita – ₹1,000–₹1,200), Blue Velvet Sour (blueberry, lavender, whiskey – ₹1,100–₹1,300), Classic Mojito (₹800–₹950), Espresso Martini (₹900–₹1,100). Mocktails: Virgin Mojito (₹450–₹550), Sunset Spritzer (₹400–₹500), Cucumber Cooler (₹400–₹500). Wine & Champagne: Dom Perignon Brut Rose (₹1,59,500/bottle), Moet & Chandon Imperial (₹12,000–₹15,000), Veuve Clicquot (₹14,000–₹17,000), Sula Sauvignon Blanc (₹2,500–₹3,000), Grover Zampa Cabernet Sauvignon (₹3,000–₹3,500), Masi Campofiorin (₹4,500–₹5,500). Spirits: Johnnie Walker Blue Label (₹18,000–₹22,000), Macallan 12 Year (₹12,000–₹15,000), Jameson (₹4,000–₹5,000), Jack Daniels (₹3,500–₹4,500); Gin: Tanqueray (₹4,000–₹5,000), Hapusa (₹4,500–₹5,500), Greater Than (₹3,500–₹4,500); Rum: Bacardi Superior (₹2,500–₹3,500), Captain Morgan (₹3,000–₹4,000); Tequila: Patron Silver (₹6,000–₹7,000), Jose Cuervo (₹3,000–₹4,000); Vodka: Grey Goose (₹5,000–₹6,000), Absolut (₹2,500–₹3,500). Beer: Kingfisher Premium (₹350–₹450/pint), Budweiser (₹400–₹500), Bira White (₹450–₹550), Corona (₹500–₹600/bottle). Tea: Jasmine Herbal Tea (₹920), English Breakfast Tea (₹360). Coffee: Espresso (₹250–₹350), Cappuccino (₹300–₹400), Latte (₹300–₹400). Fresh Juices: Watermelon (₹300–₹400), Orange (₹250–₹350), Coconut Water (₹500). All prices exclusive of taxes."
       },
       "signature_dishes": {
         "name": "Signature Dishes",
-        "path": "documents/menu/signature_dishes.pdf",
         "last_updated": "2026-06-19",
-        "description": "List of signature dishes and their descriptions."
+        "content": "Bastian at the Bottom is renowned for its signature creations that blend bold flavours with artistic presentation. The following dishes are guest favourites: \n- Salmon Jalapeño: Sushi-grade Norwegian salmon with ponzu, lime, orange juice, sliced jalapeños, and crispy toppings (₹1,200–₹1,400).\n- Tuna Sambal: Imported sushi-grade tuna with homemade sambal dressing, wasabi mayo, lime, and rice crackers (₹1,300–₹1,500).\n- Bastian Ceviche: Fresh fish marinated in citrus juices with chilies and herbs, served with sweet potato (₹1,000–₹1,200).\n- Soft Shell Crab Tacos: Tempura-fried soft shell crab over popcorn grits with giardiniera and chili oil (₹1,400–₹1,600).\n- Animal Sauce Prawns: Large crispy fried prawns in a special sauce over stir-fried broccoli (₹1,300–₹1,500).\n- Avocado Toast: Smashed avocado on artisan bread with choice of toppings (₹750–₹900).\n- Burrata Salad: Fresh burrata with heirloom tomatoes, basil, and balsamic glaze (₹900–₹1,100).\n- Hazelnut Pull-Me-Up Cake: A Bastian classic, a decadent chocolate-hazelnut dessert that is both a visual and gastronomic delight (₹600–₹750)."
       }
     },
     "events": {
       "weekly_events": {
         "name": "Weekly Events Schedule",
-        "path": "documents/events/weekly_events.pdf",
         "last_updated": "2026-06-19",
-        "description": "Weekly recurring events including DJ nights, brunches, sunset sessions, Arcane Affair."
+        "content": "Bastian at the Bottom hosts a vibrant calendar of weekly events: \n- Sunset Sessions (Friday, 5:00 PM – 8:00 PM): Relaxed evening with live acoustic music and sunset views over the Arabian Sea. Cover charge applies as per weekend rates.\n- Saturday Night Live (Saturday, 8:00 PM – 1:00 AM): High-energy night with a resident DJ, dance floor, and special cocktail menus. VIP table bookings available.\n- Sunday Brunch (Sunday, 12:00 PM – 4:00 PM): A lavish brunch spread with live stations, free-flowing beverages, and family-friendly activities. Reservations highly recommended.\n- Arcane Affair (Thursday, 10:00 PM): Held at our sister venue Bastian Bandra, this is a themed night featuring electronic music and guest DJs. Contact us for guestlist and table reservations."
       },
       "seasonal_events": {
         "name": "Seasonal Events",
-        "path": "documents/events/seasonal_events.pdf",
         "last_updated": "2026-06-19",
-        "description": "Seasonal events like New Year's Eve Gala, Christmas Brunch."
+        "content": "Bastian at the Bottom celebrates major festivals with exclusive events:\n- New Year's Eve Gala (31st December): A glamorous black-tie affair with a 5-course gourmet dinner, live band, DJ, and midnight champagne toast. Limited seats, early booking essential.\n- Christmas Brunch (25th December): Festive brunch with holiday specials, roasted turkey, mulled wine, and a visit from Santa for children. Booking opens in November.\n- Diwali Special (dates vary): Themed menu and décor with traditional Indian sweets and festive cocktails.\n- Valentine's Day (14th February): Romantic set menu for couples, live acoustic music, and rose petal decorations. Early reservations strongly advised.\n- Summer Pool Party (seasonal): Weekend afternoon parties with DJ, pool games, and special summer cocktails. Check social media for dates."
       },
       "event_spaces": {
         "name": "Event Spaces",
-        "path": "documents/events/event_spaces.pdf",
         "last_updated": "2026-06-19",
-        "description": "Spaces available for private events, corporate events, weddings, and parties."
+        "content": "Bastian at the Bottom offers versatile event spaces suitable for private parties, corporate off-sites, product launches, weddings, and other celebrations:\n- The Terrace (capacity 200): Open-air terrace with panoramic sea views, ideal for cocktail receptions, sundowner parties, and intimate gatherings. AV equipment and custom catering available.\n- The Ballroom (capacity 300): Fully enclosed, air-conditioned indoor space with high ceilings and elegant lighting. Suitable for sit-down dinners, conferences, and wedding receptions. Can be configured for theatre-style, banquet, or classroom seating.\n- Poolside Deck (capacity 150): Semi-open area adjacent to the pool, perfect for daytime events, brunch functions, and poolside parties. Access to the pool can be included.\n- Buyout: The entire venue can be booked for exclusive events of up to 1,400 guests. Contact the events team at events@bastianhospitality.com for custom proposals and pricing."
       }
     },
     "nightlife": {
       "nightlife_policy": {
         "name": "Nightlife and Club Policy",
-        "path": "documents/nightlife/nightlife_policy.pdf",
         "last_updated": "2026-06-19",
-        "description": "DJ sessions, VIP tables, bottle service, minimum spend, security checks, prohibited substances."
+        "content": "After 7:00 PM, Bastian at the Bottom transforms into a vibrant nightlife destination with live DJ sessions playing a mix of commercial house, Afrobeat, and Bollywood remixes. The club area features a dedicated dance floor and state-of-the-art sound and lighting. VIP table bookings are available with bottle service; minimum spend ranges from ₹50,000 to ₹1,00,000 depending on the night (weekends demand higher spend) and location. Bottle service includes premium spirits, mixers, and dedicated server attention. All guests must adhere to the entry policies: 21+ age, valid ID, smart casual dress code, and security screening. The consumption of illegal substances is strictly prohibited and will result in immediate eviction and legal action. Management reserves the right to refuse entry or service to anyone deemed unfit. For VIP table reservations, contact the reservations team."
       }
     },
     "timings": {
       "operational_timings": {
         "name": "Operational Timings",
-        "path": "documents/timings/operational_timings.pdf",
         "last_updated": "2026-06-19",
-        "description": "Operating days, hours, sunset slot, party slot, pool hours, wellness hours."
+        "content": "Bastian at the Bottom operates Tuesday through Sunday, 4:00 PM to 1:00 AM. The venue is closed on Mondays. Recommended time slots: Sunset Slot (4:00 PM – 7:00 PM) for the best views and relaxed ambience; Party Slot (7:00 PM – 10:00 PM) for the nightlife experience; Late Night (10:00 PM – 1:00 AM) for after-party vibes. Pool hours: 10:00 AM – 7:00 PM (access requires additional fee). Wellness activities (seasonal) from 7:00 AM – 11:00 AM. Timings may vary on public holidays and special events – please check the website or contact the venue for the latest schedule."
       }
     },
     "history": {
       "venue_history": {
         "name": "Venue History",
-        "path": "documents/history/venue_history.pdf",
         "last_updated": "2026-06-19",
-        "description": "Founders, architect, design inspiration, brand evolution."
+        "content": "Bastian at the Bottom is the latest addition to the Bastian Hospitality portfolio, which began with the iconic Bastian in Bandra, Mumbai. Founded by Ranjit Bindra, Kunal Jani, and Shilpa Shetty, the brand has grown to become synonymous with innovative dining, vibrant nightlife, and exceptional service. The Juhu Beach location was envisioned as Mumbai's first all-day beach club, bringing a slice of Mediterranean coastal lifestyle to the city. The interior design, led by Minal Chopra, draws inspiration from European beach clubs like those in Ibiza and Mykonos, featuring open layouts, natural materials, and a calming palette of whites, blues, and earth tones. Since its opening, Bastian at the Bottom has become a favourite for both locals and tourists, offering a seamless transition from daytime relaxation to evening glamour. The brand continues to expand with outlets in Bangalore, Pune, and plans for further national presence."
       }
     }
   },
 
   "venue_highlights": {
-    "name": "Bastian Beach Club",
+    "name": "Bastian at the Bottom",
     "address": "39, Sun-n-Sand, Juhu Beach, Juhu, Mumbai, Maharashtra 400049",
     "contact": {
       "phone": "+91 2250 333555",
@@ -327,7 +306,7 @@
       "Answer Generation",
       "Answer Validation",
       "Citation Validation",
-      "Confidence Scoring", 
+      "Confidence Scoring",
       "Final Response"
     ]
   }

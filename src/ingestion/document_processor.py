@@ -14,7 +14,6 @@ class RealDatabaseProcessor:
         # Initialize ChromaDB
         os.makedirs(Config.VECTOR_DB_PATH, exist_ok=True)
         self.chroma_client = chromadb.PersistentClient(path=Config.VECTOR_DB_PATH)
-        self.vector_collection = self.chroma_client.get_or_create_collection(name="bastian_knowledge")
         
         # Initialize Neo4j (Local)
         self.neo4j_uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
@@ -36,27 +35,57 @@ class RealDatabaseProcessor:
 
     def ingest_to_chroma(self, rulebook: dict):
         logger.info("Ingesting chunks into ChromaDB...")
-        venue = rulebook.get("venue_highlights", {})
-        notes = rulebook.get("dynamic_info_notes", {})
+        documents = []
+        metadatas = []
         
-        documents = [
+        # 1. Ingest Venue Highlights
+        venue = rulebook.get("venue_highlights", {})
+        documents.extend([
             f"{venue.get('name')} description: {venue.get('description')}",
             f"{venue.get('name')} Contact details. Phone: {venue.get('contact', {}).get('phone')}, WhatsApp: {venue.get('contact', {}).get('whatsapp')}",
             f"{venue.get('name')} Seating Capacity details. Total daily limit: {venue.get('seating_capacity', {}).get('total_daily')}."
-        ]
+        ])
+        metadatas.extend([{"source": "venue_highlights"} for _ in range(3)])
         
+        # 2. Ingest Dynamic Info Notes
+        notes = rulebook.get("dynamic_info_notes", {})
         for key, val in notes.items():
             documents.append(f"Policy Note regarding {key.replace('_', ' ')}: {val}")
+            metadatas.append({"source": "dynamic_notes"})
 
+        # 3. Ingest the "Source Documents" (Menus, Policies, Events)
+        source_docs = rulebook.get("source_documents", {})
+        for category, subcategories in source_docs.items():
+            if isinstance(subcategories, dict):
+                # Check for top-level content (like venue_information)
+                if "content" in subcategories: 
+                    documents.append(f"{subcategories.get('name')}: {subcategories.get('content')}")
+                    metadatas.append({"source": subcategories.get('name', category)})
+                else:
+                    # Check for nested content (like policies -> pet_policy)
+                    for doc_key, doc_info in subcategories.items():
+                        if isinstance(doc_info, dict) and "content" in doc_info: 
+                            documents.append(f"{doc_info.get('name')}: {doc_info.get('content')}")
+                            metadatas.append({"source": doc_info.get('name', doc_key)})
+
+        # 4. Clear old database collection to prevent duplicates
+        try:
+            self.chroma_client.delete_collection(name="bastian_knowledge")
+            logger.info("Cleared old ChromaDB collection.")
+        except Exception:
+            pass
+            
+        self.vector_collection = self.chroma_client.create_collection(name="bastian_knowledge")
+
+        # 5. Add all new documents to ChromaDB
         ids = [f"chunk_{i}" for i in range(len(documents))]
-        metadatas = [{"source": "venue_json"} for _ in range(len(documents))]
         
         self.vector_collection.add(
             documents=documents,
             metadatas=metadatas,
             ids=ids
         )
-        logger.info(f"Successfully stored {len(documents)} vectors in ChromaDB.")
+        logger.info(f"Successfully stored {len(documents)} vectors in ChromaDB, including Menus and Policies.")
 
     def ingest_to_neo4j(self, rulebook: dict):
         if not self.neo4j_active:

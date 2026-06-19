@@ -7,7 +7,7 @@ from src.config import Config
 # Set up basic logging
 logging.basicConfig(level=logging.INFO)
 
-st.set_page_config(page_title="Bastian Beach Club RAG", layout="wide")
+st.set_page_config(page_title="Bastian at the Bottom RAG", layout="wide")
 
 @st.cache_resource
 def initialize_pipeline():
@@ -27,7 +27,7 @@ if "retriever" not in st.session_state or "synthesizer" not in st.session_state:
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-st.title("Bastian Beach Club - AI Assistant")
+st.title("Bastian at the Bottom - AI Assistant")
 
 # Sidebar configuration and debug info
 with st.sidebar:
@@ -45,7 +45,7 @@ for msg in st.session_state.messages:
                 st.json(msg["diagnostics"])
 
 # Chat input
-if prompt := st.chat_input("Ask about Bastian Beach Club policies, menu, or events..."):
+if prompt := st.chat_input("Ask about Bastian at the Bottom policies, menu, or events..."):
     # Add user message
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
