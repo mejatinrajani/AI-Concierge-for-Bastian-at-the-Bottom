@@ -15,10 +15,6 @@ A Retrieval-Augmented Generation (RAG) system built with Streamlit that uses adv
 
 See [SETUP.md](SETUP.md) for quick setup instructions.
 
-## Assignment Answers
-
-See [Answers-for-the-Part-A.md](Answers-for-the-Part-A.md) for the answers of the questions asked in the provided pdf.
-
 ---
 ## Project Structure
 
