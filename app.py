@@ -1,4 +1,5 @@
 import os
+import re
 # Suppress the harmless but annoying HuggingFace transformer warnings in the terminal
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 
@@ -66,10 +67,29 @@ with st.sidebar:
     else:
         st.error("🔴 Cross-Encoder - Offline")
 
+
+def render_assistant_message(content: str):
+    """Extracts <think> tags and displays them inside a collapsible expander."""
+    think_match = re.search(r'<think>(.*?)</think>', content, flags=re.DOTALL)
+    if think_match:
+        thought_process = think_match.group(1).strip()
+        clean_answer = re.sub(r'<think>.*?</think>', '', content, flags=re.DOTALL).strip()
+        
+        with st.expander("🧠 Show thinking..."):
+            st.markdown(f"_{thought_process}_")
+        
+        st.markdown(clean_answer)
+    else:
+        st.markdown(content)
+
 # Display chat history
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
-        st.markdown(msg["content"])
+        if msg["role"] == "assistant":
+            render_assistant_message(msg["content"])
+        else:
+            st.markdown(msg["content"])
+            
         if "diagnostics" in msg:
             with st.expander("View Retrieval Diagnostics"):
                 st.json(msg["diagnostics"])
@@ -101,7 +121,7 @@ if prompt := st.chat_input("Ask about Bastian Beach Club policies, menu, or even
             answer = generation_result["answer"]
             engine_used = generation_result["engine_used"]
             
-            st.markdown(answer)
+            render_assistant_message(answer)
             
             # Diagnostics to show exact database hits
             diagnostics = {
