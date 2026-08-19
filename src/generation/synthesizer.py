@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 class RAGSynthesizer:
     def __init__(self):
         api_key = Config.GROQ_API_KEY
-        self.client = Groq(api_key=api_key) if api_key and api_key != "your-groq-api-key-here" else None
+        self.client = Groq(api_key=api_key) if api_key and api_key != "" else None
         self.model = Config.REASONING_LLM
 
     def build_prompt(self, query: str, context_chunks: list, chat_history: list) -> str:
@@ -81,6 +81,8 @@ Generate your response now based strictly on the <current_query>, adhering 100% 
             }
             
         except Exception as e:
+            import streamlit as st
+            st.error(f"Groq API Error: {str(e)}")
             logger.error(f"Groq API error during generation: {e}")
             return {
                 "answer": "I apologize, but I am experiencing a temporary system connection issue. Please reach out to us at +91 2250 333555 for immediate assistance.",
