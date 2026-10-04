@@ -190,8 +190,8 @@ The answer is expected to follow the guardrails in the JSON knowledge base, espe
 ### Groq Models
 The system uses:
 
-- `llama-3.1-8b-instant` for query rewriting
-- `llama-3.3-70b-versatile` for reasoning and answer generation
+- `openai/gpt-oss-20b` for query rewriting
+- `openai/gpt-oss-120b` for reasoning and answer generation
 
 ### Embeddings
 The vector database uses the open-source embedding model:

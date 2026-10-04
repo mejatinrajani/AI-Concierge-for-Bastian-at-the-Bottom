@@ -38,7 +38,7 @@ See [SETUP.md](SETUP.md) for quick setup instructions.
 ## Technologies
 
 - **Framework**: Streamlit
-- **LLM Provider**: Groq (llama-3.1-8b-instant, llama-3.3-70b-versatile)
+- **LLM Provider**: Groq (openai/gpt-oss-20b, openai/gpt-oss-120b)
 - **Vector DB**: Chroma (for embeddings)
 - **Embeddings**: all-MiniLM-L6-v2
 - **Language**: Python 3.8+
