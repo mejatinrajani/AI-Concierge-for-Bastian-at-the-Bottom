@@ -14,8 +14,8 @@ class Config:
         print("WARNING: GROQ_API_KEY not found in .env file. API calls will fail.")
     
     # LLM Settings (Fetched from .env, with fallbacks to active 2026 Groq models)
-    FAST_LLM = os.getenv("FAST_LLM", "llama-3.1-8b-instant")
-    REASONING_LLM = os.getenv("REASONING_LLM", "llama-3.3-70b-versatile")
+    FAST_LLM = os.getenv("FAST_LLM", "openai/gpt-oss-20b")
+    REASONING_LLM = os.getenv("REASONING_LLM", "openai/gpt-oss-120b")
     
     # Vector Database Settings
     VECTOR_DB_PATH = "./data/vector_db"
